@@ -1,0 +1,49 @@
+.rainbow {
+  /*transition: all 0.5s ease-out 0.1s;*/
+  -webkit-animation-name: 'rainbow';
+  -webkit-animation-duration: 10s;
+  animation-name: 'rainbow';
+  animation-duration: 10s;
+}
+
+
+@-webkit-keyframes 'rainbow' {
+  from {
+    background: red;
+  }
+  10% {
+    background: orange;
+  }
+  20% {
+    background: yellow;
+  }
+  30% {
+    background: green;
+  }
+  40% {
+    background: blue;
+  }
+  to {
+    background: purple;
+  } 
+}
+@keyframes 'rainbow' {
+  from {
+    background: red;
+  }
+  10% {
+    background: orange;
+  }
+  20% {
+    background: yellow;
+  }
+  30% {
+    background: green;
+  }
+  40% {
+    background: blue;
+  }
+  to {
+    background: purple;
+  } 
+}
