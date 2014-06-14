@@ -1,0 +1,28 @@
+{
+  "items" : [
+    {
+      "img": "http://zovmol.ru/wp-content/uploads/catalog/shkafy-kupe/sh000.jpg",
+      "alt" : "Image 1"
+    },
+    {
+      "img": "http://zovmol.ru/wp-content/uploads/catalog/shkafy-kupe/sh001.jpg",
+      "alt" : "Image 2"
+    },
+    {
+      "img": "http://zovmol.ru/wp-content/uploads/catalog/shkafy-kupe/sh002.jpg",
+      "alt" : "Image 1"
+    },
+    {
+      "img": "http://zovmol.ru/wp-content/uploads/catalog/shkafy-kupe/sh003.jpg",
+      "alt" : "Image 2"
+    },
+    {
+      "img": "http://zovmol.ru/wp-content/uploads/catalog/shkafy-kupe/sh004.jpg",
+      "alt" : "Image 1"
+    },
+    {
+      "img": "http://zovmol.ru/wp-content/uploads/catalog/shkafy-kupe/sh007.jpg",
+      "alt" : "Image 2"
+    }
+  ]
+}
