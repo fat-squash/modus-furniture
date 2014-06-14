@@ -1,5 +1,7 @@
 @import url("reset.css");
 @import url("animation.css");
+@import url("carousel.css");
+@import url("../../bower_components/owlcarousel/owl-carousel/owl.carousel.css");
 
 body, html {
   width: 100%;

@@ -1,0 +1,56 @@
+
+#gallery {
+  width: 100%;
+  height: 440px;
+}
+#gallery .item{
+  width: 100%;
+  height: 440px;
+  text-align: center;
+}
+
+#gallery .item img {
+  height: 440px;
+}
+
+.owl-pagination {
+  text-align: center;
+}
+.owl-pagination .owl-page{
+  display: inline;
+  zoom: 1;
+  display: inline-block;
+  background: rgba(255, 13, 255, 0.7);
+  margin: 5px;
+  padding: 5px 8px;
+  border-radius: 15px;
+}
+.owl-pagination .owl-page.active{
+  background: rgba(255, 83, 13, 0.7);
+}
+
+.owl-prev {
+  left: -30px;
+  text-align: right;
+}
+.owl-next {
+  right: -30px;
+  text-align: left;
+}
+.owl-prev, .owl-next {
+  transition: all 0.1s ease-in-out;
+  position: absolute;
+  top: 210px;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 13, 255, 0.7);
+  border-radius: 30px;
+  font: bold 60px/60px Trebuchet MS;
+}
+
+.owl-prev.disabled{
+  left:-60px;
+}
+.owl-next.disabled{
+  right:-60px;
+}
