@@ -1,8 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic);
+@import url("../../bower_components/owlcarousel/owl-carousel/owl.carousel.css");
 @import url("reset.css");
 @import url("animation.css");
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic);
 @import url("carousel.css");
-@import url("../../bower_components/owlcarousel/owl-carousel/owl.carousel.css");
+@import url("flip.css");
 
 body, html {
   width: 100%;
@@ -77,26 +78,24 @@ p {
   width: 1000px;
   margin: 20px auto;
   padding: 20px;
-  background: blue;
 }
 
 .contacts h1 {
   padding: 20px 0;
 }
 .contacts p {
-  width: 600px;
+
 }
 
 .about {
   width: 1000px;
   margin: 20px auto;
   padding: 20px;
-  background: orange;
 }
 
 .about h1 {
   padding: 20px 0;
 }
 .about p {
-  width: 600px;
+
 }
