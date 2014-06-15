@@ -34,6 +34,7 @@ p {
 }
 
 .menu_button {
+  transition: all 0.7s easy-in-out;
   display: inline-block;
   margin-right: 54px; 
   margin-top: 40px;
@@ -56,10 +57,22 @@ p {
 
 @media screen and (max-width: 980px) {
    body {
-    transition: background 0.7s easy-in-out;
-      background-image: radial-gradient(at top, rgb(65, 44, 249), rgb(33, 22, 122));
+      background-image: radial-gradient(at top, rgb(165, 21, 249), rgb(73, 169, 122));
    }
 }
+
+@media screen and (max-width: 500px) {
+  .menu_button {
+    margin-top: 0px;
+    margin-bottom: -9px;
+    margin-left: 18px;
+    display: block;
+  }
+  #header {
+    text-align: left;
+  }
+}
+
 .contacts {
   width: 1000px;
   margin: 20px auto;
