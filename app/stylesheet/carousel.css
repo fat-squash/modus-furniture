@@ -1,3 +1,7 @@
+.gallery-block {
+  padding: 50px 0;
+  overflow: hidden;
+}
 
 #gallery {
   width: 100%;
