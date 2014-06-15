@@ -10,19 +10,25 @@
   }
 
 .flip-container, .front, .back {
-  width: 480px;
-  height: 480px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.flip-container {
+  margin: 50px;
 }
 
 /* flip speed goes here */
 .flipper {
-  -webkit-transition: 0.6s;
+  -webkit-transition: 0.6s ease-in-out;
   -webkit-transform-style: preserve-3d;
-  -moz-transition: 0.6s;
+  -moz-transition: 0.6s ease-in-out;
   -moz-transform-style: preserve-3d;
-  transition: 0.6s;
+  transition: 0.6s ease-in-out;
   transform-style: preserve-3d;
   position: relative;
+  display: block;
 }
 
 /* hide back of pane during swap */
@@ -37,13 +43,15 @@
 
 /* front pane, placed above back */
 .front {
-  background: green;
+  background: rgba(255,255,255,0.7);
   z-index: 2;
+  line-height: 200px;
+  font-size: 42px;
 }
 
 /* back, initially hidden pane */
 .back {
-  background: yellow;
+  background: rgba(255,13,83,0.7);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   transform: rotateY(180deg);
