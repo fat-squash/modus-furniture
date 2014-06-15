@@ -9,7 +9,11 @@ body, html {
   height: 100%;
   /*font: normal 12px Helvetica, Arial;*/
   font-family: 'Open Sans Condensed', sans-serif;
-  background-image: radial-gradient(at top, rgb(107, 239, 249), rgb(26, 116, 122));
+  background: 
+    rgba(107, 239, 249, 1)
+    radial-gradient(at top, rgba(107, 239, 249, 1), rgba(26, 116, 122, 1))
+    no-repeat;
+  background-size: 100% 1000%;
 }
 
 h1 {
@@ -49,4 +53,28 @@ p {
 }
 .text-shadow {
   text-shadow: rgb(0, 0, 0) 2px 2px 1px;
+}
+
+.contacts {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.contacts h1 {
+  padding: 20px 0;
+}
+.contacts p {
+  width: 600px;
+}
+
+.about {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  padding: 20px 0;
+}
+.about p {
+  width: 600px;
 }
